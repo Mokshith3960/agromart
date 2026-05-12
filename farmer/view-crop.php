@@ -70,7 +70,7 @@ include './includes/connection.php';
 										?>
 										<tr>
 											<td><?php echo $i; ?></td>
-                                            <td><img src="<?php echo $row['image_location']; ?>" height="100"></td>
+                                            <td><img src="../<?php echo $row['image_location']; ?>" height="100"></td>
 											<td class="d-none d-xl-table-cell"><?php echo $row['farmer_name']; ?></td>
 											<td class="d-none d-xl-table-cell"><?php echo $row['crop_name']; ?></td>
 											<td class="d-none d-xl-table-cell"><?php echo $row['crop_description']; ?></td>
