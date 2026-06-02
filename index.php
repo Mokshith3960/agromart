@@ -68,7 +68,7 @@ include './includes/connection.php';
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Find desired items in one place</h1>
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Empowering Farmers Through Digital Agriculture</h1>
                                     <a href="./products.php" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
                                 </div>
                             </div>
@@ -115,8 +115,8 @@ include './includes/connection.php';
                                 <i class="fa fa-times text-primary"></i>
                             </div>
                             <div class="ps-3">
-                                <h4>No Hidden Cost</h4>
-                                <span>Purchase items directly from Vendors</span>
+                                <h4>Farmer Empowerment</h4>
+                                <span>Direct access to buyers without intermediaries.</span>
                             </div>
                         </div>
                     </div>
@@ -128,8 +128,8 @@ include './includes/connection.php';
                                 <i class="fa fa-users text-primary"></i>
                             </div>
                             <div class="ps-3">
-                                <h4>Dedicated Team</h4>
-                                <span>Dedicated team to handle all requests</span>
+                                <h4>Smart Crop Bidding</h4>
+                                <span>Competitive bidding ensures better crop prices.</span>
                             </div>
                         </div>
                     </div>
@@ -141,8 +141,8 @@ include './includes/connection.php';
                                 <i class="fa fa-phone text-primary"></i>
                             </div>
                             <div class="ps-3">
-                                <h4>24/7 Available</h4>
-                                <span>24*7 support for all the queries</span>
+                                <h4>One-Stop Agri Marketplace</h4>
+                                <span>Buy and sell agricultural products through a unified platform.</span>
                             </div>
                         </div>
                     </div>
@@ -161,10 +161,10 @@ include './includes/connection.php';
                     <img class="img-fluid rounded" data-wow-delay="0.1s" src="img/about.jpg">
                 </div>
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
-                    <h1 class="display-1 text-primary mb-0">25</h1>
-                    <p class="text-primary mb-4">Year of Experience</p>
-                    <h1 class="display-5 mb-4">We Make Your Home Like A Garden</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <h1 class="display-1 text-primary mb-0">100+</h1>
+                    <p class="text-primary mb-4">Farmers Registered</p>
+                    <h1 class="display-5 mb-4">Connecting Farmers and Buyers on a Single Platform</h1>
+                    <p class="mb-4">Agromart is a web-based agricultural marketplace that connects farmers and consumers through a single platform. Farmers can upload crops for sale, while consumers can browse products, participate in crop bidding, and place orders. The system helps eliminate intermediaries and ensures a transparent trading process.</p>
                     <a class="btn btn-primary py-3 px-4" href="">Explore More</a>
                 </div>
                 <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
@@ -172,15 +172,15 @@ include './includes/connection.php';
                         <div class="col-12 col-sm-6 col-lg-12">
                             <div class="border-start ps-4">
                                 <i class="fa fa-award fa-3x text-primary mb-3"></i>
-                                <h4 class="mb-3">Award Winning</h4>
-                                <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna</span>
+                                <h4 class="mb-3">Crop Bidding System</h4>
+                                <span>Consumers can bid on crops, helping farmers receive competitive market prices for their produce.</span>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-lg-12">
                             <div class="border-start ps-4">
                                 <i class="fa fa-users fa-3x text-primary mb-3"></i>
-                                <h4 class="mb-3">Dedicated Team</h4>
-                                <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna</span>
+                                <h4 class="mb-3">Secure Order Management</h4>
+                                <span>Manage products, orders, payments, and transactions through an easy-to-use web interface.</span>
                             </div>
                         </div>
                     </div>
@@ -196,20 +196,20 @@ include './includes/connection.php';
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Happy Clients</span>
+                    <h1 class="display-4 text-white" data-toggle="counter-up">3</h1>
+                    <span class="fs-5 fw-semi-bold text-light">User Modules</span>
                 </div>
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Garden Complated</span>
+                    <h1 class="display-4 text-white" data-toggle="counter-up">8</h1>
+                    <span class="fs-5 fw-semi-bold text-light">Database Tables</span>
                 </div>
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Dedicated Staff</span>
+                    <h1 class="display-4 text-white" data-toggle="counter-up">100</h1>
+                    <span class="fs-5 fw-semi-bold text-light">Products Listed</span>
                 </div>
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Awards Achieved</span>
+                    <h1 class="display-4 text-white" data-toggle="counter-up">50</h1>
+                    <span class="fs-5 fw-semi-bold text-light">Orders Processed</span>
                 </div>
             </div>
         </div>
@@ -222,9 +222,9 @@ include './includes/connection.php';
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="fs-5 fw-bold text-primary">Why Choosing Us!</p>
-                    <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="fs-5 fw-bold text-primary">Why Choose Agromart?</p>
+                    <h1 class="display-5 mb-4">Why Farmers and Consumers Prefer Agromart</h1>
+                    <p class="mb-4">Agromart provides a centralized platform where farmers can sell crops directly and consumers can purchase agricultural products with ease. The system promotes transparency, reduces dependency on intermediaries, and ensures efficient agricultural trade.</p>
                     <a class="btn btn-primary py-3 px-4" href="">Explore More</a>
                 </div>
                 <div class="col-lg-6">
@@ -236,7 +236,7 @@ include './includes/connection.php';
                                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                                             <i class="fa fa-check fa-3x text-primary"></i>
                                         </div>
-                                        <h4 class="mb-0">100% Satisfaction</h4>
+                                        <h4 class="mb-0">Fair Crop Pricing</h4>
                                     </div>
                                 </div>
                                 <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
@@ -244,7 +244,7 @@ include './includes/connection.php';
                                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                                             <i class="fa fa-users fa-3x text-primary"></i>
                                         </div>
-                                        <h4 class="mb-0">Dedicated Team</h4>
+                                        <h4 class="mb-0">Farmer & Consumer Connectivity</h4>
                                     </div>
                                 </div>
                             </div>
@@ -254,7 +254,7 @@ include './includes/connection.php';
                                 <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                                     <i class="fa fa-tools fa-3x text-primary"></i>
                                 </div>
-                                <h4 class="mb-0">Modern Equipment</h4>
+                                <h4 class="mb-0">Easy Order Management</h4>
                             </div>
                         </div>
                     </div>
