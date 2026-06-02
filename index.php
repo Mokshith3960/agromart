@@ -268,8 +268,8 @@ include './includes/connection.php';
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-bold text-primary">Our Projects</p>
-                <h1 class="display-5 mb-5">Some Of Our Wonderful Projects</h1>
+                <p class="fs-5 fw-bold text-primary">Our Products</p>
+                <h1 class="display-5 mb-5">Some Of Our Wonderful Products</h1>
             </div>
             <div class="row wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-12 text-center">
@@ -283,7 +283,7 @@ include './includes/connection.php';
             <div class="row g-4 portfolio-container">
                 <?php
                     $query=mysqli_query($con,"SELECT C.consumer_name, P.product_id, P.product_name, P.product_description, P.product_amount, P.image_location from products P
-                    left JOIN consumer C on C.consumer_id=P.consumer_id limit 10") or die(mysqli_error($con));
+                    left JOIN consumer C on C.consumer_id=P.consumer_id limit 9") or die(mysqli_error($con));
                     if(mysqli_num_rows($query)){
                         $i=1;
                         while($row=mysqli_fetch_array($query)){
