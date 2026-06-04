@@ -67,7 +67,7 @@ include './includes/connection.php';
 										?>
 										<tr>
 											<td><?php echo $i; ?></td>
-                                            <td><img src="../<?php echo $row['image_location']; ?>" height="100"></td>
+                                            <td><img src="<?php echo $row['image_location']; ?>" height="100"></td>
 											<td class="d-none d-xl-table-cell"><?php echo $row['product_name']; ?></td>
 											<td class="d-none d-xl-table-cell">&#8377;<?php echo $row['product_amount']; ?>.00</td>
 											<td class="d-none d-xl-table-cell"><?php echo $row['product_description']; ?></td>

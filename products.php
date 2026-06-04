@@ -91,7 +91,8 @@ include './includes/connection.php';
             </div>
             <div class="row g-4 portfolio-container">
                 <?php
-                    $query=mysqli_query($con,"SELECT C.consumer_name, P.product_id, P.product_name, P.product_description, P.product_amount, P.image_location from products P
+                    $query=mysqli_query($con,"SELECT C.consumer_name, P.product_id, P.product_name, 
+                    P.product_description, P.product_amount, P.image_location from products P
                     left JOIN consumer C on C.consumer_id=P.consumer_id limit 15") or die(mysqli_error($con));
                     if(mysqli_num_rows($query)){
                         $i=1;

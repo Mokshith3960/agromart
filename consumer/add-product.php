@@ -80,7 +80,7 @@ include './includes/connection.php';
                                             return $randomString;
                                         }
 
-                                        $target_dir = "../products/";
+                                        $target_dir = "../images/products/";
                                         $target_file = $target_dir . generateRandomString() . basename($_FILES["image"]["name"]);
 
                                         $name=mysqli_real_escape_string($con,$_POST['name']);
