@@ -80,7 +80,7 @@ include './includes/connection.php';
                                             return $randomString;
                                         }
 
-                                        $target_dir = "../crops/";
+                                        $target_dir = "../images/crops/";
                                         $target_file = $target_dir . generateRandomString() . basename($_FILES["image"]["name"]);
 
                                         $name=mysqli_real_escape_string($con,$_POST['name']);
@@ -137,7 +137,7 @@ include './includes/connection.php';
                                                         title: 'Oops!',
                                                         text: 'Something went wrong!!'
                                                     }).then((result) => {
-                                                        window.location='add-product.php';
+                                                        window.location='add-crop.php';
                                                     });
                                                 </script>
                                             <?php
