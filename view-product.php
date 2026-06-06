@@ -93,7 +93,7 @@ include './includes/connection.php';
             ?>
             <div class="row">
                 <div class="col-4">
-                    <img class="img-fluid" src="<?php echo str_replace("../products","./products",$row['image_location']); ?>" alt="">
+                    <img class="img-fluid" src="<?php echo str_replace("../images/products","./images/products",$row['image_location']); ?>" alt="">
                 </div>
                 <div class="col-8">
                     <form method="post">

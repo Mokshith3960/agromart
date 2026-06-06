@@ -100,11 +100,11 @@ include './includes/connection.php';
                 ?>
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="<?php echo str_replace("../products","./products",$row['image_location']); ?>" alt="">
+                        <img class="img-fluid" src="<?php echo str_replace("../images/products","./images/products",$row['image_location']); ?>" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4"><?php echo $row['product_name']; ?></h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="<?php echo str_replace("../products","./products",$row['image_location']); ?>" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="<?php echo str_replace("../images/products","./images/products",$row['image_location']); ?>" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href="view-product.php?product_id=<?php echo $row['product_id']; ?>"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
