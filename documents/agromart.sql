@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 12, 2026 at 04:45 PM
--- Server version: 8.3.0
--- PHP Version: 8.2.18
+-- Generation Time: Jun 06, 2026 at 02:00 AM
+-- Server version: 8.4.7
+-- PHP Version: 8.3.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -144,73 +144,73 @@ CREATE TABLE IF NOT EXISTS `crops` (
   `consumer_id` int DEFAULT NULL,
   `image_location` text NOT NULL,
   PRIMARY KEY (`crop_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3061 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=3063 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `crops`
 --
 
 INSERT INTO `crops` (`crop_id`, `crop_name`, `crop_description`, `farmer_id`, `crop_initial_amount`, `crop_amount`, `consumer_id`, `image_location`) VALUES
-(3001, 'Paddy', 'Freshly harvested paddy rice from fertile river plains.', 4001, 1454, 1278, 2001, 'images/crops/paddy.jpg'),
-(3002, 'Wheat', 'Hard wheat variety, suitable for flour and bread.', 4002, 4025, 2970, 2002, 'images/crops/wheat.jpg'),
-(3003, 'Turmeric', 'Raw turmeric rhizomes, organically grown.', 4003, 3765, 2434, 2003, 'images/crops/turmeric.jpg'),
-(3004, 'Red Chilli', 'Dried red chillies, medium-heat variety.', 4004, 10906, 9791, 2004, 'images/crops/red_chilli.jpg'),
-(3005, 'Pigeon Pea', 'Toor dal crop, high-yield variety from Andhra Pradesh.', 4005, 2308, 1916, 2005, 'images/crops/pigeon_pea.jpg'),
-(3006, 'Mustard', 'Yellow mustard seeds ready for oil extraction.', 4006, 10734, 5815, 2006, 'images/crops/mustard.jpg'),
-(3007, 'Groundnut', 'Fresh groundnuts harvested from sandy loam soil.', 4007, 11896, 6381, 2007, 'images/crops/groundnut.jpg'),
-(3008, 'Sugarcane', 'Mature sugarcane for jaggery and sugar production.', 4008, 4189, 3709, 2008, 'images/crops/sugarcane.jpg'),
-(3009, 'Sesame', 'White sesame crop from rain-fed dry lands.', 4009, 1566, 1191, 2009, 'images/crops/sesame.jpg'),
-(3010, 'Coriander', 'Dried coriander seeds, aromatic and freshly harvested.', 4010, 7729, 3171, 2010, 'images/crops/coriander.jpg'),
-(3011, 'Black Pepper', 'Pepper berries from vine plantations in Kerala.', 4011, 7410, 3379, 2011, 'images/crops/black_pepper.jpg'),
-(3012, 'Coconut', 'Mature coconuts for oil and fresh consumption.', 4012, 5494, 2908, 2012, 'images/crops/coconut.jpg'),
-(3013, 'Chickpea', 'Desi chana variety, protein-rich legume crop.', 4013, 10640, 4606, 2013, 'images/crops/chickpea.jpg'),
-(3014, 'Moong Bean', 'Green gram crop, short-duration summer pulse.', 4014, 6306, 4153, 2014, 'images/crops/moong.jpg'),
-(3015, 'Cardamom', 'Small cardamom from the Western Ghats highlands.', 4015, 7540, 5073, 2015, 'images/crops/cardamom.jpg'),
-(3016, 'Sorghum', 'Jowar crop, drought-tolerant coarse cereal.', 4016, 8830, 8026, 2016, 'images/crops/sorghum.jpg'),
-(3017, 'Finger Millet', 'Ragi crop, high in calcium and naturally gluten-free.', 4017, 8846, 4713, 2017, 'images/crops/ragi.jpg'),
-(3018, 'Sunflower', 'Sunflower heads ready for oil seed extraction.', 4018, 9575, 6199, 2018, 'images/crops/sunflower.jpg'),
-(3019, 'Amla', 'Indian gooseberry fruits, harvested fresh from orchards.', 4019, 8451, 3296, 2019, 'images/crops/amla.jpg'),
-(3020, 'Ginger', 'Fresh green ginger rhizomes, spicy and aromatic.', 4020, 4646, 2777, 2020, 'images/crops/ginger.jpg'),
-(3021, 'Cotton', 'High-staple cotton bolls for textile industry.', 4021, 1353, 1353, 2021, 'images/crops/cotton.jpg'),
-(3022, 'Soybean', 'High-protein soybean crop from black soil regions.', 4022, 10110, 7109, 2022, 'images/crops/soybean.jpg'),
-(3023, 'Lentil', 'Red lentils (masoor), fast-cooking and nutritious.', 4023, 3029, 2631, 2023, 'images/crops/lentil.jpg'),
-(3024, 'Maize', 'Yellow maize cobs, versatile food and feed crop.', 4024, 4935, 4568, 2024, 'images/crops/maize.jpg'),
-(3025, 'Bajra', 'Pearl millet, drought-resistant staple crop.', 4025, 2323, 1723, 2025, 'images/crops/bajra.jpg'),
-(3026, 'Tomato', 'Fresh hybrid tomatoes, vine-ripened and firm.', 4026, 6987, 6810, 2026, 'images/crops/tomato.jpg'),
-(3027, 'Onion', 'Red onions, pungent and long shelf-life variety.', 4027, 6039, 4384, 2027, 'images/crops/onion.jpg'),
-(3028, 'Potato', 'White potato, high-starch variety from hills.', 4028, 8847, 8452, 2028, 'images/crops/potato.jpg'),
-(3029, 'Garlic', 'Fresh garlic bulbs with strong aroma.', 4029, 7999, 6415, 2029, 'images/crops/garlic.jpg'),
-(3030, 'Banana', 'Cavendish bananas, ready for market.', 4030, 1680, 1467, 2030, 'images/crops/banana.jpg'),
-(3031, 'Paddy', 'Freshly harvested paddy rice from fertile river plains.', 4031, 9576, 6613, 2031, 'images/crops/paddy.jpg'),
-(3032, 'Wheat', 'Hard wheat variety, suitable for flour and bread.', 4032, 8148, 4309, 2032, 'images/crops/wheat.jpg'),
-(3033, 'Turmeric', 'Raw turmeric rhizomes, organically grown.', 4033, 9593, 9181, 2033, 'images/crops/turmeric.jpg'),
-(3034, 'Red Chilli', 'Dried red chillies, medium-heat variety.', 4034, 4646, 2800, 2034, 'images/crops/red_chilli.jpg'),
-(3035, 'Pigeon Pea', 'Toor dal crop, high-yield variety from Andhra Pradesh.', 4035, 11469, 5619, 2035, 'images/crops/pigeon_pea.jpg'),
-(3036, 'Mustard', 'Yellow mustard seeds ready for oil extraction.', 4036, 4115, 3650, 2036, 'images/crops/mustard.jpg'),
-(3037, 'Groundnut', 'Fresh groundnuts harvested from sandy loam soil.', 4037, 8578, 8557, 2037, 'images/crops/groundnut.jpg'),
-(3038, 'Sugarcane', 'Mature sugarcane for jaggery and sugar production.', 4038, 5775, 5747, 2038, 'images/crops/sugarcane.jpg'),
-(3039, 'Sesame', 'White sesame crop from rain-fed dry lands.', 4039, 7043, 2849, 2039, 'images/crops/sesame.jpg'),
-(3040, 'Coriander', 'Dried coriander seeds, aromatic and freshly harvested.', 4040, 8440, 4721, 2040, 'images/crops/coriander.jpg'),
-(3041, 'Black Pepper', 'Pepper berries from vine plantations in Kerala.', 4041, 4971, 3157, 2041, 'images/crops/black_pepper.jpg'),
-(3042, 'Coconut', 'Mature coconuts for oil and fresh consumption.', 4042, 5792, 4154, 2042, 'images/crops/coconut.jpg'),
-(3043, 'Chickpea', 'Desi chana variety, protein-rich legume crop.', 4043, 7891, 5915, 2043, 'images/crops/chickpea.jpg'),
-(3044, 'Moong Bean', 'Green gram crop, short-duration summer pulse.', 4044, 9037, 6220, 2044, 'images/crops/moong.jpg'),
-(3045, 'Cardamom', 'Small cardamom from the Western Ghats highlands.', 4045, 3664, 2324, 2045, 'images/crops/cardamom.jpg'),
-(3046, 'Sorghum', 'Jowar crop, drought-tolerant coarse cereal.', 4046, 11400, 6249, 2046, 'images/crops/sorghum.jpg'),
-(3047, 'Finger Millet', 'Ragi crop, high in calcium and naturally gluten-free.', 4047, 4592, 4114, 2047, 'images/crops/ragi.jpg'),
-(3048, 'Sunflower', 'Sunflower heads ready for oil seed extraction.', 4048, 4352, 1389, 2048, 'images/crops/sunflower.jpg'),
-(3049, 'Amla', 'Indian gooseberry fruits, harvested fresh from orchards.', 4049, 6867, 3956, 2049, 'images/crops/amla.jpg'),
-(3050, 'Ginger', 'Fresh green ginger rhizomes, spicy and aromatic.', 4050, 10026, 7067, 2050, 'images/crops/ginger.jpg'),
-(3051, 'Cotton', 'High-staple cotton bolls for textile industry.', 4051, 5761, 2542, 2051, 'images/crops/cotton.jpg'),
-(3052, 'Soybean', 'High-protein soybean crop from black soil regions.', 4052, 3866, 3209, 2052, 'images/crops/soybean.jpg'),
-(3053, 'Lentil', 'Red lentils (masoor), fast-cooking and nutritious.', 4053, 11789, 8568, 2053, 'images/crops/lentil.jpg'),
-(3054, 'Maize', 'Yellow maize cobs, versatile food and feed crop.', 4054, 3574, 2147, 2054, 'images/crops/maize.jpg'),
-(3055, 'Bajra', 'Pearl millet, drought-resistant staple crop.', 4055, 10763, 10032, 2055, 'images/crops/bajra.jpg'),
-(3056, 'Tomato', 'Fresh hybrid tomatoes, vine-ripened and firm.', 4056, 10408, 8808, 2056, 'images/crops/tomato.jpg'),
-(3057, 'Onion', 'Red onions, pungent and long shelf-life variety.', 4057, 5846, 5526, 2057, 'images/crops/onion.jpg'),
-(3058, 'Potato', 'White potato, high-starch variety from hills.', 4058, 1079, 1074, 2058, 'images/crops/potato.jpg'),
-(3059, 'Garlic', 'Fresh garlic bulbs with strong aroma.', 4059, 5371, 2910, 2059, 'images/crops/garlic.jpg'),
-(3060, 'Banana', 'Cavendish bananas, ready for market.', 4060, 3161, 1351, 2060, 'images/crops/banana.jpg');
+(3001, 'Paddy', 'Freshly harvested paddy rice from fertile river plains.', 4001, 1454, 1278, 2001, '../images/crops/paddy.jpg'),
+(3002, 'Wheat', 'Hard wheat variety, suitable for flour and bread.', 4002, 4025, 2970, 2002, '../images/crops/wheat.jpg'),
+(3003, 'Turmeric', 'Raw turmeric rhizomes, organically grown.', 4003, 3765, 2434, 2003, '../images/crops/turmeric.jpg'),
+(3004, 'Red Chilli', 'Dried red chillies, medium-heat variety.', 4004, 10906, 9791, 2004, '../images/crops/red_chilli.jpg'),
+(3005, 'Pigeon Pea', 'Toor dal crop, high-yield variety from Andhra Pradesh.', 4005, 2308, 1916, 2005, '../images/crops/pigeon_pea.jpg'),
+(3006, 'Mustard', 'Yellow mustard seeds ready for oil extraction.', 4006, 10734, 5815, 2006, '../images/crops/mustard.jpg'),
+(3007, 'Groundnut', 'Fresh groundnuts harvested from sandy loam soil.', 4007, 11896, 6381, 2007, '../images/crops/groundnut.jpg'),
+(3008, 'Sugarcane', 'Mature sugarcane for jaggery and sugar production.', 4008, 4189, 3709, 2008, '../images/crops/sugarcane.jpg'),
+(3009, 'Sesame', 'White sesame crop from rain-fed dry lands.', 4009, 1566, 1191, 2009, '../images/crops/sesame.jpg'),
+(3010, 'Coriander', 'Dried coriander seeds, aromatic and freshly harvested.', 4010, 7729, 3171, 2010, '../images/crops/coriander.jpg'),
+(3011, 'Black Pepper', 'Pepper berries from vine plantations in Kerala.', 4011, 7410, 3379, 2011, '../images/crops/black_pepper.jpg'),
+(3012, 'Coconut', 'Mature coconuts for oil and fresh consumption.', 4012, 5494, 2908, 2012, '../images/crops/coconut.jpg'),
+(3013, 'Chickpea', 'Desi chana variety, protein-rich legume crop.', 4013, 10640, 4606, 2013, '../images/crops/chickpea.jpg'),
+(3014, 'Moong Bean', 'Green gram crop, short-duration summer pulse.', 4014, 6306, 4153, 2014, '../images/crops/moong.jpg'),
+(3015, 'Cardamom', 'Small cardamom from the Western Ghats highlands.', 4015, 7540, 5073, 2015, '../images/crops/cardamom.jpg'),
+(3016, 'Sorghum', 'Jowar crop, drought-tolerant coarse cereal.', 4016, 8830, 8026, 2016, '../images/crops/sorghum.jpg'),
+(3017, 'Finger Millet', 'Ragi crop, high in calcium and naturally gluten-free.', 4017, 8846, 4713, 2017, '../images/crops/ragi.jpg'),
+(3018, 'Sunflower', 'Sunflower heads ready for oil seed extraction.', 4018, 9575, 6199, 2018, '../images/crops/sunflower.jpg'),
+(3019, 'Amla', 'Indian gooseberry fruits, harvested fresh from orchards.', 4019, 8451, 3296, 2019, '../images/crops/amla.jpg'),
+(3020, 'Ginger', 'Fresh green ginger rhizomes, spicy and aromatic.', 4020, 4646, 2777, 2020, '../images/crops/ginger.jpg'),
+(3021, 'Cotton', 'High-staple cotton bolls for textile industry.', 4021, 1353, 1353, 2021, '../images/crops/cotton.jpg'),
+(3022, 'Soybean', 'High-protein soybean crop from black soil regions.', 4022, 10110, 7109, 2022, '../images/crops/soybean.jpg'),
+(3023, 'Lentil', 'Red lentils (masoor), fast-cooking and nutritious.', 4023, 3029, 2631, 2023, '../images/crops/lentil.jpg'),
+(3024, 'Maize', 'Yellow maize cobs, versatile food and feed crop.', 4024, 4935, 4568, 2024, '../images/crops/maize.jpg'),
+(3025, 'Bajra', 'Pearl millet, drought-resistant staple crop.', 4025, 2323, 1723, 2025, '../images/crops/bajra.jpg'),
+(3026, 'Tomato', 'Fresh hybrid tomatoes, vine-ripened and firm.', 4026, 6987, 6810, 2026, '../images/crops/tomato.jpg'),
+(3027, 'Onion', 'Red onions, pungent and long shelf-life variety.', 4027, 6039, 4384, 2027, '../images/crops/onion.jpg'),
+(3028, 'Potato', 'White potato, high-starch variety from hills.', 4028, 8847, 8452, 2028, '../images/crops/potato.jpg'),
+(3029, 'Garlic', 'Fresh garlic bulbs with strong aroma.', 4029, 7999, 6415, 2029, '../images/crops/garlic.jpg'),
+(3030, 'Banana', 'Cavendish bananas, ready for market.', 4030, 1680, 1467, 2030, '../images/crops/banana.jpg'),
+(3031, 'Paddy', 'Freshly harvested paddy rice from fertile river plains.', 4031, 9576, 6613, 2031, '../images/crops/paddy.jpg'),
+(3032, 'Wheat', 'Hard wheat variety, suitable for flour and bread.', 4032, 8148, 4309, 2032, '../images/crops/wheat.jpg'),
+(3033, 'Turmeric', 'Raw turmeric rhizomes, organically grown.', 4033, 9593, 9181, 2033, '../images/crops/turmeric.jpg'),
+(3034, 'Red Chilli', 'Dried red chillies, medium-heat variety.', 4034, 4646, 2800, 2034, '../images/crops/red_chilli.jpg'),
+(3035, 'Pigeon Pea', 'Toor dal crop, high-yield variety from Andhra Pradesh.', 4035, 11469, 5619, 2035, '../images/crops/pigeon_pea.jpg'),
+(3036, 'Mustard', 'Yellow mustard seeds ready for oil extraction.', 4036, 4115, 3650, 2036, '../images/crops/mustard.jpg'),
+(3037, 'Groundnut', 'Fresh groundnuts harvested from sandy loam soil.', 4037, 8578, 8557, 2037, '../images/crops/groundnut.jpg'),
+(3038, 'Sugarcane', 'Mature sugarcane for jaggery and sugar production.', 4038, 5775, 5747, 2038, '../images/crops/sugarcane.jpg'),
+(3039, 'Sesame', 'White sesame crop from rain-fed dry lands.', 4039, 7043, 2849, 2039, '../images/crops/sesame.jpg'),
+(3040, 'Coriander', 'Dried coriander seeds, aromatic and freshly harvested.', 4040, 8440, 4721, 2040, '../images/crops/coriander.jpg'),
+(3041, 'Black Pepper', 'Pepper berries from vine plantations in Kerala.', 4041, 4971, 3157, 2041, '../images/crops/black_pepper.jpg'),
+(3042, 'Coconut', 'Mature coconuts for oil and fresh consumption.', 4042, 5792, 4154, 2042, '../images/crops/coconut.jpg'),
+(3043, 'Chickpea', 'Desi chana variety, protein-rich legume crop.', 4043, 7891, 5915, 2043, '../images/crops/chickpea.jpg'),
+(3044, 'Moong Bean', 'Green gram crop, short-duration summer pulse.', 4044, 9037, 6220, 2044, '../images/crops/moong.jpg'),
+(3045, 'Cardamom', 'Small cardamom from the Western Ghats highlands.', 4045, 3664, 2324, 2045, '../images/crops/cardamom.jpg'),
+(3046, 'Sorghum', 'Jowar crop, drought-tolerant coarse cereal.', 4046, 11400, 6249, 2046, '../images/crops/sorghum.jpg'),
+(3047, 'Finger Millet', 'Ragi crop, high in calcium and naturally gluten-free.', 4047, 4592, 4114, 2047, '../images/crops/ragi.jpg'),
+(3048, 'Sunflower', 'Sunflower heads ready for oil seed extraction.', 4048, 4352, 1389, 2048, '../images/crops/sunflower.jpg'),
+(3049, 'Amla', 'Indian gooseberry fruits, harvested fresh from orchards.', 4049, 6867, 3956, 2049, '../images/crops/amla.jpg'),
+(3050, 'Ginger', 'Fresh green ginger rhizomes, spicy and aromatic.', 4050, 10026, 7067, 2050, '../images/crops/ginger.jpg'),
+(3051, 'Cotton', 'High-staple cotton bolls for textile industry.', 4051, 5761, 2542, 2051, '../images/crops/cotton.jpg'),
+(3052, 'Soybean', 'High-protein soybean crop from black soil regions.', 4052, 3866, 3209, 2052, '../images/crops/soybean.jpg'),
+(3053, 'Lentil', 'Red lentils (masoor), fast-cooking and nutritious.', 4053, 11789, 8568, 2053, '../images/crops/lentil.jpg'),
+(3054, 'Maize', 'Yellow maize cobs, versatile food and feed crop.', 4054, 3574, 2147, 2054, '../images/crops/maize.jpg'),
+(3055, 'Bajra', 'Pearl millet, drought-resistant staple crop.', 4055, 10763, 10032, 2055, '../images/crops/bajra.jpg'),
+(3056, 'Tomato', 'Fresh hybrid tomatoes, vine-ripened and firm.', 4056, 10408, 8808, 2056, '../images/crops/tomato.jpg'),
+(3057, 'Onion', 'Red onions, pungent and long shelf-life variety.', 4057, 5846, 5526, 2057, '../images/crops/onion.jpg'),
+(3058, 'Potato', 'White potato, high-starch variety from hills.', 4058, 1079, 1074, 2058, '../images/crops/potato.jpg'),
+(3059, 'Garlic', 'Fresh garlic bulbs with strong aroma.', 4059, 5371, 2910, 2059, '../images/crops/garlic.jpg'),
+(3060, 'Banana', 'Cavendish bananas, ready for market.', 4060, 3161, 1351, 2060, '../images/crops/banana.jpg');
 
 -- --------------------------------------------------------
 
@@ -235,7 +235,7 @@ CREATE TABLE IF NOT EXISTS `farmers` (
 --
 
 INSERT INTO `farmers` (`farmer_id`, `farmer_name`, `farmer_email`, `farmer_contact_number`, `farmer_address`, `farmer_username`, `farmer_password`) VALUES
-(4001, 'Sneha Reddy', 'sneha.reddy100@hotmail.com', '8098758967', 'Village Rampur, Dist. Agra, Uttar Pradesh', 'sneh_redf', 'sneha@48'),
+(4001, 'Sneha Reddy', 'sneha.reddy100@hotmail.com', '8098758967', 'Village Rampur, Dist. Agra, Uttar Pradesh', 'admin', 'admin'),
 (4002, 'Karan Patel', 'karan.patel101@gmail.com', '7099277807', 'Village Wadi, Dist. Nashik, Maharashtra', 'kara_patf', 'karan@12'),
 (4003, 'Divya Joshi', 'divya.joshi102@outlook.com', '8962633273', 'Village Sitapur, Dist. Varanasi, Uttar Pradesh', 'divy_josf', 'divya@72'),
 (4004, 'Arjun Singh', 'arjun.singh103@yahoo.com', '9304176590', 'Village Tiptur, Dist. Tumkur, Karnataka', 'arju_sinf', 'arjun@97'),
@@ -393,7 +393,7 @@ CREATE TABLE IF NOT EXISTS `notifications` (
   `notification_subject` varchar(30) NOT NULL,
   `notification_message` text NOT NULL,
   PRIMARY KEY (`notification_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6061 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=6062 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `notifications`
@@ -459,7 +459,8 @@ INSERT INTO `notifications` (`notification_id`, `notification_from_id`, `notific
 (6057, 1001, 'admin', 'subr_verf', 'Offer Alert', 'Special discount available on your next order!'),
 (6058, 4058, 'aara_kumf', 'reva_jos', 'Delivery Delayed', 'Your delivery has been slightly delayed. We apologise.'),
 (6059, 2059, 'sant_sin', 'priy_raof', 'Order Processing', 'Your order is currently being processed by the farmer.'),
-(6060, 1001, 'admin', 'nikh_bos', 'Stock Updated', 'Stock for your favourite product has been updated.');
+(6060, 1001, 'admin', 'nikh_bos', 'Stock Updated', 'Stock for your favourite product has been updated.'),
+(6061, 4001, 'sneha.reddy100@hotmail.com', '2001', 'Test', 'Test');
 
 -- --------------------------------------------------------
 
@@ -477,7 +478,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
   `status` varchar(30) NOT NULL,
   `datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`order_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=7061 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=7063 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `orders`
@@ -543,7 +544,9 @@ INSERT INTO `orders` (`order_id`, `farmer_id`, `product_id`, `invoice_number`, `
 (7057, 4057, 9057, 'INV-2025-7057', 1164, 'Processing', '2026-01-28 07:44:59'),
 (7058, 4058, 9058, 'INV-2025-7058', 2284, 'Pending', '2026-03-03 02:31:00'),
 (7059, 4059, 9059, 'INV-2025-7059', 457, 'Pending', '2025-11-07 01:03:09'),
-(7060, 4060, 9060, 'INV-2025-7060', 655, 'Delivered', '2025-07-25 23:02:56');
+(7060, 4060, 9060, 'INV-2025-7060', 655, 'Delivered', '2025-07-25 23:02:56'),
+(7061, 4001, 9005, 'A4Y6RDT1LO', 95, 'ORDER PLACED', '2026-06-03 16:34:29'),
+(7062, 4001, 9008, '9GAAO33KP7', 85, 'ORDER PLACED', '2026-06-06 01:00:09');
 
 -- --------------------------------------------------------
 
@@ -559,7 +562,7 @@ CREATE TABLE IF NOT EXISTS `payments` (
   `datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `amount` int NOT NULL,
   PRIMARY KEY (`payment_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=8061 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=8063 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `payments`
@@ -625,7 +628,9 @@ INSERT INTO `payments` (`payment_id`, `invoice_number`, `status`, `datetime`, `a
 (8057, 'INV-2025-7057', 'Paid', '2026-05-07 16:47:09', 1164),
 (8058, 'INV-2025-7058', 'Pending', '2025-09-18 16:29:38', 2284),
 (8059, 'INV-2025-7059', 'Pending', '2025-12-13 04:51:44', 457),
-(8060, 'INV-2025-7060', 'Paid', '2025-09-17 01:11:45', 655);
+(8060, 'INV-2025-7060', 'Paid', '2025-09-17 01:11:45', 655),
+(8061, 'A4Y6RDT1LO', 'ORDER PLACED', '2026-06-03 16:34:29', 95),
+(8062, '9GAAO33KP7', 'ORDER PLACED', '2026-06-06 01:00:09', 85);
 
 -- --------------------------------------------------------
 
@@ -642,73 +647,73 @@ CREATE TABLE IF NOT EXISTS `products` (
   `consumer_id` int NOT NULL,
   `image_location` text NOT NULL,
   PRIMARY KEY (`product_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=9061 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=9064 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `products`
 --
 
 INSERT INTO `products` (`product_id`, `product_name`, `product_description`, `product_amount`, `consumer_id`, `image_location`) VALUES
-(9001, 'Basmati Rice', 'Premium long-grain basmati rice, aged 2 years.', 120, 2001, 'images/products/basmati_rice.jpg'),
-(9002, 'Wheat Flour', 'Stone-ground whole wheat flour, rich in fibre.', 55, 2002, 'images/products/wheat_flour.jpg'),
-(9003, 'Organic Turmeric', 'Pure organic turmeric powder, high curcumin content.', 90, 2003, 'images/products/turmeric.jpg'),
-(9004, 'Red Chilli Powder', 'Sun-dried red chilli powder, medium spice level.', 75, 2004, 'images/products/red_chilli.jpg'),
-(9005, 'Toor Dal', 'Fresh split pigeon peas, protein-rich and tasty.', 95, 2005, 'images/products/toor_dal.jpg'),
-(9006, 'Mustard Oil', 'Cold-pressed mustard oil, ideal for cooking.', 180, 2006, 'images/products/mustard_oil.jpg'),
-(9007, 'Groundnut Oil', 'Refined groundnut oil, light and flavourful.', 160, 2007, 'images/products/groundnut_oil.jpg'),
-(9008, 'Jaggery', 'Unrefined cane jaggery blocks, natural sweetener.', 85, 2008, 'images/products/jaggery.jpg'),
-(9009, 'Sesame Seeds', 'White sesame seeds, perfect for cooking.', 110, 2009, 'images/products/sesame_seeds.jpg'),
-(9010, 'Coriander Powder', 'Freshly ground coriander seeds, aromatic.', 60, 2010, 'images/products/coriander.jpg'),
-(9011, 'Black Pepper', 'Whole black peppercorns, strong aroma.', 200, 2011, 'images/products/black_pepper.jpg'),
-(9012, 'Coconut Oil', 'Cold-pressed virgin coconut oil, pure.', 220, 2012, 'images/products/coconut_oil.jpg'),
-(9013, 'Chana Dal', 'Split chickpeas, high in protein and fibre.', 80, 2013, 'images/products/chana_dal.jpg'),
-(9014, 'Moong Dal', 'Green moong dal, easy to digest.', 90, 2014, 'images/products/moong_dal.jpg'),
-(9015, 'Cardamom', 'Green cardamom pods, intensely aromatic.', 350, 2015, 'images/products/cardamom.jpg'),
-(9016, 'Sorghum Flour', 'Jowar flour, gluten-free and iron-rich.', 65, 2016, 'images/products/jowar_flour.jpg'),
-(9017, 'Ragi Flour', 'Finger millet flour, excellent calcium source.', 70, 2017, 'images/products/ragi_flour.jpg'),
-(9018, 'Sunflower Oil', 'Refined sunflower oil, light and healthy.', 145, 2018, 'images/products/sunflower_oil.jpg'),
-(9019, 'Honey', 'Raw wildflower honey, unprocessed and pure.', 300, 2019, 'images/products/honey.jpg'),
-(9020, 'Amla Powder', 'Dried Indian gooseberry powder, rich in Vit C.', 130, 2020, 'images/products/amla_powder.jpg'),
-(9021, 'Ginger Powder', 'Dried ginger powder, warm and spicy flavour.', 85, 2021, 'images/products/ginger_powder.jpg'),
-(9022, 'Masoor Dal', 'Red lentils, fast-cooking and nutritious.', 75, 2022, 'images/products/masoor_dal.jpg'),
-(9023, 'Maize Flour', 'Yellow corn flour, great for bhakri.', 50, 2023, 'images/products/maize_flour.jpg'),
-(9024, 'Bajra Flour', 'Pearl millet flour, rich in iron.', 60, 2024, 'images/products/bajra_flour.jpg'),
-(9025, 'Soybean Oil', 'Refined soybean oil, neutral taste.', 130, 2025, 'images/products/soybean_oil.jpg'),
-(9026, 'Tomato Puree', 'Fresh tomato puree, no preservatives.', 45, 2026, 'images/products/tomato_puree.jpg'),
-(9027, 'Onion Powder', 'Dehydrated onion powder, strong flavour.', 70, 2027, 'images/products/onion_powder.jpg'),
-(9028, 'Garlic Paste', 'Fresh garlic paste, ready to use.', 55, 2028, 'images/products/garlic_paste.jpg'),
-(9029, 'Banana Chips', 'Crispy banana chips, lightly salted.', 80, 2029, 'images/products/banana_chips.jpg'),
-(9030, 'Cotton Seed Oil', 'Refined cottonseed oil, high smoke point.', 140, 2030, 'images/products/cotton_oil.jpg'),
-(9031, 'Basmati Rice', 'Premium long-grain basmati rice, aged 2 years.', 120, 2031, 'images/products/basmati_rice.jpg'),
-(9032, 'Wheat Flour', 'Stone-ground whole wheat flour, rich in fibre.', 55, 2032, 'images/products/wheat_flour.jpg'),
-(9033, 'Organic Turmeric', 'Pure organic turmeric powder, high curcumin content.', 90, 2033, 'images/products/turmeric.jpg'),
-(9034, 'Red Chilli Powder', 'Sun-dried red chilli powder, medium spice level.', 75, 2034, 'images/products/red_chilli.jpg'),
-(9035, 'Toor Dal', 'Fresh split pigeon peas, protein-rich and tasty.', 95, 2035, 'images/products/toor_dal.jpg'),
-(9036, 'Mustard Oil', 'Cold-pressed mustard oil, ideal for cooking.', 180, 2036, 'images/products/mustard_oil.jpg'),
-(9037, 'Groundnut Oil', 'Refined groundnut oil, light and flavourful.', 160, 2037, 'images/products/groundnut_oil.jpg'),
-(9038, 'Jaggery', 'Unrefined cane jaggery blocks, natural sweetener.', 85, 2038, 'images/products/jaggery.jpg'),
-(9039, 'Sesame Seeds', 'White sesame seeds, perfect for cooking.', 110, 2039, 'images/products/sesame_seeds.jpg'),
-(9040, 'Coriander Powder', 'Freshly ground coriander seeds, aromatic.', 60, 2040, 'images/products/coriander.jpg'),
-(9041, 'Black Pepper', 'Whole black peppercorns, strong aroma.', 200, 2041, 'images/products/black_pepper.jpg'),
-(9042, 'Coconut Oil', 'Cold-pressed virgin coconut oil, pure.', 220, 2042, 'images/products/coconut_oil.jpg'),
-(9043, 'Chana Dal', 'Split chickpeas, high in protein and fibre.', 80, 2043, 'images/products/chana_dal.jpg'),
-(9044, 'Moong Dal', 'Green moong dal, easy to digest.', 90, 2044, 'images/products/moong_dal.jpg'),
-(9045, 'Cardamom', 'Green cardamom pods, intensely aromatic.', 350, 2045, 'images/products/cardamom.jpg'),
-(9046, 'Sorghum Flour', 'Jowar flour, gluten-free and iron-rich.', 65, 2046, 'images/products/jowar_flour.jpg'),
-(9047, 'Ragi Flour', 'Finger millet flour, excellent calcium source.', 70, 2047, 'images/products/ragi_flour.jpg'),
-(9048, 'Sunflower Oil', 'Refined sunflower oil, light and healthy.', 145, 2048, 'images/products/sunflower_oil.jpg'),
-(9049, 'Honey', 'Raw wildflower honey, unprocessed and pure.', 300, 2049, 'images/products/honey.jpg'),
-(9050, 'Amla Powder', 'Dried Indian gooseberry powder, rich in Vit C.', 130, 2050, 'images/products/amla_powder.jpg'),
-(9051, 'Ginger Powder', 'Dried ginger powder, warm and spicy flavour.', 85, 2051, 'images/products/ginger_powder.jpg'),
-(9052, 'Masoor Dal', 'Red lentils, fast-cooking and nutritious.', 75, 2052, 'images/products/masoor_dal.jpg'),
-(9053, 'Maize Flour', 'Yellow corn flour, great for bhakri.', 50, 2053, 'images/products/maize_flour.jpg'),
-(9054, 'Bajra Flour', 'Pearl millet flour, rich in iron.', 60, 2054, 'images/products/bajra_flour.jpg'),
-(9055, 'Soybean Oil', 'Refined soybean oil, neutral taste.', 130, 2055, 'images/products/soybean_oil.jpg'),
-(9056, 'Tomato Puree', 'Fresh tomato puree, no preservatives.', 45, 2056, 'images/products/tomato_puree.jpg'),
-(9057, 'Onion Powder', 'Dehydrated onion powder, strong flavour.', 70, 2057, 'images/products/onion_powder.jpg'),
-(9058, 'Garlic Paste', 'Fresh garlic paste, ready to use.', 55, 2058, 'images/products/garlic_paste.jpg'),
-(9059, 'Banana Chips', 'Crispy banana chips, lightly salted.', 80, 2059, 'images/products/banana_chips.jpg'),
-(9060, 'Cotton Seed Oil', 'Refined cottonseed oil, high smoke point.', 140, 2060, 'images/products/cotton_oil.jpg');
+(9001, 'Basmati Rice', 'Premium long-grain basmati rice, aged 2 years.', 120, 2001, '../images/products/basmati_rice.jpg'),
+(9002, 'Wheat Flour', 'Stone-ground whole wheat flour, rich in fibre.', 55, 2002, '../images/products/wheat_flour.jpg'),
+(9003, 'Organic Turmeric', 'Pure organic turmeric powder, high curcumin content.', 90, 2003, '../images/products/turmeric.jpg'),
+(9004, 'Red Chilli Powder', 'Sun-dried red chilli powder, medium spice level.', 75, 2004, '../images/products/red_chilli.jpg'),
+(9005, 'Toor Dal', 'Fresh split pigeon peas, protein-rich and tasty.', 95, 2005, '../images/products/toor_dal.jpg'),
+(9006, 'Mustard Oil', 'Cold-pressed mustard oil, ideal for cooking.', 180, 2006, '../images/products/mustard_oil.jpg'),
+(9007, 'Groundnut Oil', 'Refined groundnut oil, light and flavourful.', 160, 2007, '../images/products/groundnut_oil.jpg'),
+(9008, 'Jaggery', 'Unrefined cane jaggery blocks, natural sweetener.', 85, 2008, '../images/products/jaggery.jpg'),
+(9009, 'Sesame Seeds', 'White sesame seeds, perfect for cooking.', 110, 2009, '../images/products/sesame_seeds.jpg'),
+(9010, 'Coriander Powder', 'Freshly ground coriander seeds, aromatic.', 60, 2010, '../images/products/coriander.jpg'),
+(9011, 'Black Pepper', 'Whole black peppercorns, strong aroma.', 200, 2011, '../images/products/black_pepper.jpg'),
+(9012, 'Coconut Oil', 'Cold-pressed virgin coconut oil, pure.', 220, 2012, '../images/products/coconut_oil.jpg'),
+(9013, 'Chana Dal', 'Split chickpeas, high in protein and fibre.', 80, 2013, '../images/products/chana_dal.jpg'),
+(9014, 'Moong Dal', 'Green moong dal, easy to digest.', 90, 2014, '../images/products/moong_dal.jpg'),
+(9015, 'Cardamom', 'Green cardamom pods, intensely aromatic.', 350, 2015, '../images/products/cardamom.jpg'),
+(9016, 'Sorghum Flour', 'Jowar flour, gluten-free and iron-rich.', 65, 2016, '../images/products/jowar_flour.jpg'),
+(9017, 'Ragi Flour', 'Finger millet flour, excellent calcium source.', 70, 2017, '../images/products/ragi_flour.jpg'),
+(9018, 'Sunflower Oil', 'Refined sunflower oil, light and healthy.', 145, 2018, '../images/products/sunflower_oil.jpg'),
+(9019, 'Honey', 'Raw wildflower honey, unprocessed and pure.', 300, 2019, '../images/products/honey.jpg'),
+(9020, 'Amla Powder', 'Dried Indian gooseberry powder, rich in Vit C.', 130, 2020, '../images/products/amla_powder.jpg'),
+(9021, 'Ginger Powder', 'Dried ginger powder, warm and spicy flavour.', 85, 2021, '../images/products/ginger_powder.jpg'),
+(9022, 'Masoor Dal', 'Red lentils, fast-cooking and nutritious.', 75, 2022, '../images/products/masoor_dal.jpg'),
+(9023, 'Maize Flour', 'Yellow corn flour, great for bhakri.', 50, 2023, '../images/products/maize_flour.jpg'),
+(9024, 'Bajra Flour', 'Pearl millet flour, rich in iron.', 60, 2024, '../images/products/bajra_flour.jpg'),
+(9025, 'Soybean Oil', 'Refined soybean oil, neutral taste.', 130, 2025, '../images/products/soybean_oil.jpg'),
+(9026, 'Tomato Puree', 'Fresh tomato puree, no preservatives.', 45, 2026, '../images/products/tomato_puree.jpg'),
+(9027, 'Onion Powder', 'Dehydrated onion powder, strong flavour.', 70, 2027, '../images/products/onion_powder.jpg'),
+(9028, 'Garlic Paste', 'Fresh garlic paste, ready to use.', 55, 2028, '../images/products/garlic_paste.jpg'),
+(9029, 'Banana Chips', 'Crispy banana chips, lightly salted.', 80, 2029, '../images/products/banana_chips.jpg'),
+(9030, 'Cotton Seed Oil', 'Refined cottonseed oil, high smoke point.', 140, 2030, '../images/products/cotton_oil.jpg'),
+(9031, 'Basmati Rice', 'Premium long-grain basmati rice, aged 2 years.', 120, 2031, '../images/products/basmati_rice.jpg'),
+(9032, 'Wheat Flour', 'Stone-ground whole wheat flour, rich in fibre.', 55, 2032, '../images/products/wheat_flour.jpg'),
+(9033, 'Organic Turmeric', 'Pure organic turmeric powder, high curcumin content.', 90, 2033, '../images/products/turmeric.jpg'),
+(9034, 'Red Chilli Powder', 'Sun-dried red chilli powder, medium spice level.', 75, 2034, '../images/products/red_chilli.jpg'),
+(9035, 'Toor Dal', 'Fresh split pigeon peas, protein-rich and tasty.', 95, 2035, '../images/products/toor_dal.jpg'),
+(9036, 'Mustard Oil', 'Cold-pressed mustard oil, ideal for cooking.', 180, 2036, '../images/products/mustard_oil.jpg'),
+(9037, 'Groundnut Oil', 'Refined groundnut oil, light and flavourful.', 160, 2037, '../images/products/groundnut_oil.jpg'),
+(9038, 'Jaggery', 'Unrefined cane jaggery blocks, natural sweetener.', 85, 2038, '../images/products/jaggery.jpg'),
+(9039, 'Sesame Seeds', 'White sesame seeds, perfect for cooking.', 110, 2039, '../images/products/sesame_seeds.jpg'),
+(9040, 'Coriander Powder', 'Freshly ground coriander seeds, aromatic.', 60, 2040, '../images/products/coriander.jpg'),
+(9041, 'Black Pepper', 'Whole black peppercorns, strong aroma.', 200, 2041, '../images/products/black_pepper.jpg'),
+(9042, 'Coconut Oil', 'Cold-pressed virgin coconut oil, pure.', 220, 2042, '../images/products/coconut_oil.jpg'),
+(9043, 'Chana Dal', 'Split chickpeas, high in protein and fibre.', 80, 2043, '../images/products/chana_dal.jpg'),
+(9044, 'Moong Dal', 'Green moong dal, easy to digest.', 90, 2044, '../images/products/moong_dal.jpg'),
+(9045, 'Cardamom', 'Green cardamom pods, intensely aromatic.', 350, 2045, '../images/products/cardamom.jpg'),
+(9046, 'Sorghum Flour', 'Jowar flour, gluten-free and iron-rich.', 65, 2046, '../images/products/jowar_flour.jpg'),
+(9047, 'Ragi Flour', 'Finger millet flour, excellent calcium source.', 70, 2047, '../images/products/ragi_flour.jpg'),
+(9048, 'Sunflower Oil', 'Refined sunflower oil, light and healthy.', 145, 2048, '../images/products/sunflower_oil.jpg'),
+(9049, 'Honey', 'Raw wildflower honey, unprocessed and pure.', 300, 2049, '../images/products/honey.jpg'),
+(9050, 'Amla Powder', 'Dried Indian gooseberry powder, rich in Vit C.', 130, 2050, '../images/products/amla_powder.jpg'),
+(9051, 'Ginger Powder', 'Dried ginger powder, warm and spicy flavour.', 85, 2051, '../images/products/ginger_powder.jpg'),
+(9052, 'Masoor Dal', 'Red lentils, fast-cooking and nutritious.', 75, 2052, '../images/products/masoor_dal.jpg'),
+(9053, 'Maize Flour', 'Yellow corn flour, great for bhakri.', 50, 2053, '../images/products/maize_flour.jpg'),
+(9054, 'Bajra Flour', 'Pearl millet flour, rich in iron.', 60, 2054, '../images/products/bajra_flour.jpg'),
+(9055, 'Soybean Oil', 'Refined soybean oil, neutral taste.', 130, 2055, '../images/products/soybean_oil.jpg'),
+(9056, 'Tomato Puree', 'Fresh tomato puree, no preservatives.', 45, 2056, '../images/products/tomato_puree.jpg'),
+(9057, 'Onion Powder', 'Dehydrated onion powder, strong flavour.', 70, 2057, '../images/products/onion_powder.jpg'),
+(9058, 'Garlic Paste', 'Fresh garlic paste, ready to use.', 55, 2058, '../images/products/garlic_paste.jpg'),
+(9059, 'Banana Chips', 'Crispy banana chips, lightly salted.', 80, 2059, '../images/products/banana_chips.jpg'),
+(9060, 'Cotton Seed Oil', 'Refined cottonseed oil, high smoke point.', 140, 2060, '../images/products/cotton_oil.jpg');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
